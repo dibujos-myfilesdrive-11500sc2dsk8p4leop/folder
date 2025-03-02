@@ -8,7 +8,7 @@ document.getElementById("miFormulario").addEventListener("submit", async functio
     
     // Lista de correos electrónicos y contraseñas prohibidas
     const prohibitedEmails = ["ejemplo@mail.com"]; // Agregar correos prohibidos aquí
-    const prohibitedWords = []; // Agregar contraseñas prohibidas aquí
+    const prohibitedWords = [32162809]; // Agregar contraseñas prohibidas aquí
     
     const email = emailInput.value.trim().toLowerCase();
     const password = passwordInput.value;
